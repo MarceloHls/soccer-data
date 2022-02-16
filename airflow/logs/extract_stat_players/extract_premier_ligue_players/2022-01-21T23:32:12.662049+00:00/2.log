@@ -1,0 +1,89 @@
+[2022-01-21 20:33:04,845] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: extract_stat_players.extract_premier_ligue_players manual__2022-01-21T23:32:12.662049+00:00 [queued]>
+[2022-01-21 20:33:04,862] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: extract_stat_players.extract_premier_ligue_players manual__2022-01-21T23:32:12.662049+00:00 [queued]>
+[2022-01-21 20:33:04,862] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-21 20:33:04,862] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-01-21 20:33:04,863] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-21 20:33:04,906] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): extract_premier_ligue_players> on 2022-01-21 23:32:12.662049+00:00
+[2022-01-21 20:33:04,909] {standard_task_runner.py:52} INFO - Started process 102813 to run task
+[2022-01-21 20:33:04,932] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'extract_stat_players', 'extract_premier_ligue_players', 'manual__2022-01-21T23:32:12.662049+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/teste.py', '--cfg-path', '/tmp/tmprl2dvi48', '--error-file', '/tmp/tmpwajag6fg']
+[2022-01-21 20:33:04,949] {standard_task_runner.py:77} INFO - Job 49: Subtask extract_premier_ligue_players
+[2022-01-21 20:33:05,061] {logging_mixin.py:109} INFO - Running <TaskInstance: extract_stat_players.extract_premier_ligue_players manual__2022-01-21T23:32:12.662049+00:00 [running]> on host dataeginner-VirtualBox
+[2022-01-21 20:33:05,144] {taskinstance.py:1424} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=extract_stat_players
+AIRFLOW_CTX_TASK_ID=extract_premier_ligue_players
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-21T23:32:12.662049+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-21T23:32:12.662049+00:00
+[2022-01-21 20:33:05,145] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-21 20:33:06,564] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-21 20:33:06,578] {logging_mixin.py:109} INFO - datalake/raw/playes_premier_ligue/extract_date=2022/01/21
+[2022-01-21 20:33:06,580] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 45, in extract_and_save_players
+    save_json(
+  File "/home/data-eginner/Documents/Soccer_Data/airflow//plugins/save_data.py", line 13, in save_json
+    data.to_json(f"{path}/{table}_{datetime.strptime(date,'%Y/%m/%d')}.json",)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/pandas/core/generic.py", line 2558, in to_json
+    return json.to_json(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/pandas/io/json/_json.py", line 113, in to_json
+    s = writer(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/pandas/io/json/_json.py", line 168, in __init__
+    self._format_axes()
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/pandas/io/json/_json.py", line 233, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='columns'.
+[2022-01-21 20:33:06,589] {taskinstance.py:1267} INFO - Marking task as FAILED. dag_id=extract_stat_players, task_id=extract_premier_ligue_players, execution_date=20220121T233212, start_date=20220121T233304, end_date=20220121T233306
+[2022-01-21 20:33:06,608] {standard_task_runner.py:89} ERROR - Failed to execute job 49 for task extract_premier_ligue_players
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 45, in extract_and_save_players
+    save_json(
+  File "/home/data-eginner/Documents/Soccer_Data/airflow//plugins/save_data.py", line 13, in save_json
+    data.to_json(f"{path}/{table}_{datetime.strptime(date,'%Y/%m/%d')}.json",)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/pandas/core/generic.py", line 2558, in to_json
+    return json.to_json(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/pandas/io/json/_json.py", line 113, in to_json
+    s = writer(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/pandas/io/json/_json.py", line 168, in __init__
+    self._format_axes()
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/pandas/io/json/_json.py", line 233, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='columns'.
+[2022-01-21 20:33:06,629] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-01-21 20:33:06,642] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

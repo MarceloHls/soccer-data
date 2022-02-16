@@ -1,0 +1,80 @@
+[2022-01-21 21:00:32,729] {processor.py:163} INFO - Started process (PID=110618) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:00:32,730] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:00:32,730] {logging_mixin.py:109} INFO - [2022-01-21 21:00:32,730] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:00:32,857] {logging_mixin.py:109} INFO - [2022-01-21 21:00:32,857] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:00:32,947] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:00:33,001] {logging_mixin.py:109} INFO - [2022-01-21 21:00:33,001] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:00:33,097] {logging_mixin.py:109} INFO - [2022-01-21 21:00:33,097] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:00:33,229] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.571 seconds
+[2022-01-21 21:01:29,119] {processor.py:163} INFO - Started process (PID=110886) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:01:29,121] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:01:29,121] {logging_mixin.py:109} INFO - [2022-01-21 21:01:29,121] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:01:29,134] {logging_mixin.py:109} INFO - [2022-01-21 21:01:29,134] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:01:29,147] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:01:29,158] {logging_mixin.py:109} INFO - [2022-01-21 21:01:29,158] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:01:29,169] {logging_mixin.py:109} INFO - [2022-01-21 21:01:29,169] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:01:29,205] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.089 seconds
+[2022-01-21 21:02:25,297] {processor.py:163} INFO - Started process (PID=111155) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:02:25,310] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:02:25,311] {logging_mixin.py:109} INFO - [2022-01-21 21:02:25,311] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:02:25,334] {logging_mixin.py:109} INFO - [2022-01-21 21:02:25,334] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:02:25,345] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:02:25,364] {logging_mixin.py:109} INFO - [2022-01-21 21:02:25,363] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:02:25,383] {logging_mixin.py:109} INFO - [2022-01-21 21:02:25,382] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:02:25,418] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.123 seconds
+[2022-01-21 21:03:23,128] {processor.py:163} INFO - Started process (PID=111408) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:03:23,133] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:03:23,134] {logging_mixin.py:109} INFO - [2022-01-21 21:03:23,134] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:03:23,146] {logging_mixin.py:109} INFO - [2022-01-21 21:03:23,146] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:03:23,157] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:03:23,167] {logging_mixin.py:109} INFO - [2022-01-21 21:03:23,167] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:03:23,178] {logging_mixin.py:109} INFO - [2022-01-21 21:03:23,178] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:03:23,195] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2022-01-21 21:04:03,400] {processor.py:163} INFO - Started process (PID=111618) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:04:03,418] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:04:03,419] {logging_mixin.py:109} INFO - [2022-01-21 21:04:03,419] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:04:03,435] {logging_mixin.py:109} INFO - [2022-01-21 21:04:03,435] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:04:03,452] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:04:03,462] {logging_mixin.py:109} INFO - [2022-01-21 21:04:03,462] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:04:03,473] {logging_mixin.py:109} INFO - [2022-01-21 21:04:03,473] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:04:03,489] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.098 seconds
+[2022-01-21 21:04:44,030] {processor.py:163} INFO - Started process (PID=111837) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:04:44,037] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:04:44,038] {logging_mixin.py:109} INFO - [2022-01-21 21:04:44,038] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:04:44,048] {logging_mixin.py:109} INFO - [2022-01-21 21:04:44,048] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:04:44,065] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:04:44,075] {logging_mixin.py:109} INFO - [2022-01-21 21:04:44,075] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:04:44,088] {logging_mixin.py:109} INFO - [2022-01-21 21:04:44,088] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:04:44,114] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.113 seconds
+[2022-01-21 21:05:21,935] {processor.py:163} INFO - Started process (PID=112029) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:05:21,950] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:05:21,951] {logging_mixin.py:109} INFO - [2022-01-21 21:05:21,951] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:05:21,972] {logging_mixin.py:109} INFO - [2022-01-21 21:05:21,971] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:05:22,002] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:05:22,013] {logging_mixin.py:109} INFO - [2022-01-21 21:05:22,013] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:05:22,048] {logging_mixin.py:109} INFO - [2022-01-21 21:05:22,048] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:05:22,112] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.180 seconds
+[2022-01-21 21:06:00,094] {processor.py:163} INFO - Started process (PID=112223) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:06:00,098] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:06:00,099] {logging_mixin.py:109} INFO - [2022-01-21 21:06:00,099] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:06:00,123] {logging_mixin.py:109} INFO - [2022-01-21 21:06:00,123] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:06:00,148] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:06:00,158] {logging_mixin.py:109} INFO - [2022-01-21 21:06:00,158] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:06:00,170] {logging_mixin.py:109} INFO - [2022-01-21 21:06:00,170] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:06:00,186] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.098 seconds
+[2022-01-21 21:06:35,583] {processor.py:163} INFO - Started process (PID=112418) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:06:35,586] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:06:35,586] {logging_mixin.py:109} INFO - [2022-01-21 21:06:35,586] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:06:35,603] {logging_mixin.py:109} INFO - [2022-01-21 21:06:35,603] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:06:35,617] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:06:35,626] {logging_mixin.py:109} INFO - [2022-01-21 21:06:35,626] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:06:35,637] {logging_mixin.py:109} INFO - [2022-01-21 21:06:35,637] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:06:35,652] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2022-01-21 21:07:24,544] {processor.py:163} INFO - Started process (PID=112658) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:07:24,546] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-01-21 21:07:24,546] {logging_mixin.py:109} INFO - [2022-01-21 21:07:24,546] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:07:24,556] {logging_mixin.py:109} INFO - [2022-01-21 21:07:24,556] {example_python_operator.py:67} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-01-21 21:07:24,610] {processor.py:654} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-01-21 21:07:24,631] {logging_mixin.py:109} INFO - [2022-01-21 21:07:24,630] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:07:24,652] {logging_mixin.py:109} INFO - [2022-01-21 21:07:24,652] {dag.py:2935} INFO - Setting next_dagrun for example_python_operator to None
+[2022-01-21 21:07:24,669] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.137 seconds

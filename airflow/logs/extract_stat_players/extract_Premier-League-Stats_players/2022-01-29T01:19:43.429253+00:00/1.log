@@ -1,0 +1,52 @@
+[2022-01-28 22:19:54,036] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: extract_stat_players.extract_Premier-League-Stats_players manual__2022-01-29T01:19:43.429253+00:00 [queued]>
+[2022-01-28 22:19:54,042] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: extract_stat_players.extract_Premier-League-Stats_players manual__2022-01-29T01:19:43.429253+00:00 [queued]>
+[2022-01-28 22:19:54,043] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-28 22:19:54,043] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-01-28 22:19:54,043] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-28 22:19:54,090] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): extract_Premier-League-Stats_players> on 2022-01-29 01:19:43.429253+00:00
+[2022-01-28 22:19:54,098] {standard_task_runner.py:52} INFO - Started process 30277 to run task
+[2022-01-28 22:19:54,112] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'extract_stat_players', 'extract_Premier-League-Stats_players', 'manual__2022-01-29T01:19:43.429253+00:00', '--job-id', '69', '--raw', '--subdir', '/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py', '--cfg-path', '/tmp/tmpfn1mtfvu', '--error-file', '/tmp/tmptco078ox']
+[2022-01-28 22:19:54,126] {standard_task_runner.py:77} INFO - Job 69: Subtask extract_Premier-League-Stats_players
+[2022-01-28 22:19:54,207] {logging_mixin.py:109} INFO - Running <TaskInstance: extract_stat_players.extract_Premier-League-Stats_players manual__2022-01-29T01:19:43.429253+00:00 [running]> on host dataeginner-VirtualBox
+[2022-01-28 22:19:54,329] {taskinstance.py:1424} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=extract_stat_players
+AIRFLOW_CTX_TASK_ID=extract_Premier-League-Stats_players
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-29T01:19:43.429253+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-29T01:19:43.429253+00:00
+[2022-01-28 22:19:54,334] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-01-28 22:19:54,334] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+[2022-01-28 22:19:54,335] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+[2022-01-28 22:19:54,336] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2022-01-28 22:19:54,336] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+[2022-01-28 22:19:54,337] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-01-28 22:19:54,337] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+[2022-01-28 22:19:54,338] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+[2022-01-28 22:19:54,339] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+[2022-01-28 22:19:54,360] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-01-28 22:19:54,367] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+[2022-01-28 22:19:54,368] {logging_mixin.py:109} WARNING - /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-01-28 22:19:54,368] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 22:19:56,475] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 22:19:56,518] {logging_mixin.py:109} INFO - datalake/players/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 22:19:56,589] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 22:19:56,610] {python.py:175} INFO - Done. Returned value was: None
+[2022-01-28 22:19:56,632] {taskinstance.py:1267} INFO - Marking task as SUCCESS. dag_id=extract_stat_players, task_id=extract_Premier-League-Stats_players, execution_date=20220129T011943, start_date=20220129T011954, end_date=20220129T011956
+[2022-01-28 22:19:56,789] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-28 22:19:56,808] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

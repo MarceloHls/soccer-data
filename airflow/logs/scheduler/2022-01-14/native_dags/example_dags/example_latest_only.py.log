@@ -1,0 +1,49 @@
+[2022-01-13 23:04:41,091] {processor.py:163} INFO - Started process (PID=24099) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:04:41,126] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-01-13 23:04:41,127] {logging_mixin.py:109} INFO - [2022-01-13 23:04:41,127] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:04:41,160] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:04:41,184] {logging_mixin.py:109} INFO - [2022-01-13 23:04:41,184] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:04:41,261] {logging_mixin.py:109} INFO - [2022-01-13 23:04:41,261] {dag.py:2935} INFO - Setting next_dagrun for latest_only to 2022-01-13T22:04:41.261539+00:00
+[2022-01-13 23:04:41,296] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.210 seconds
+[2022-01-13 23:05:30,588] {processor.py:163} INFO - Started process (PID=24517) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:05:30,599] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-01-13 23:05:30,602] {logging_mixin.py:109} INFO - [2022-01-13 23:05:30,602] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:05:30,641] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:05:30,684] {logging_mixin.py:109} INFO - [2022-01-13 23:05:30,684] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:05:30,727] {logging_mixin.py:109} INFO - [2022-01-13 23:05:30,727] {dag.py:2935} INFO - Setting next_dagrun for latest_only to 2022-01-13T22:05:30.727511+00:00
+[2022-01-13 23:05:30,778] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.192 seconds
+[2022-01-13 23:06:13,886] {processor.py:163} INFO - Started process (PID=24726) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:06:13,898] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-01-13 23:06:13,899] {logging_mixin.py:109} INFO - [2022-01-13 23:06:13,899] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:06:13,956] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:06:13,999] {logging_mixin.py:109} INFO - [2022-01-13 23:06:13,998] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:06:14,077] {logging_mixin.py:109} INFO - [2022-01-13 23:06:14,077] {dag.py:2935} INFO - Setting next_dagrun for latest_only to 2022-01-13T22:06:14.077066+00:00
+[2022-01-13 23:06:14,160] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.298 seconds
+[2022-01-13 23:07:02,163] {processor.py:163} INFO - Started process (PID=24928) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:07:02,167] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-01-13 23:07:02,169] {logging_mixin.py:109} INFO - [2022-01-13 23:07:02,168] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:07:02,193] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:07:02,204] {logging_mixin.py:109} INFO - [2022-01-13 23:07:02,204] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:07:02,220] {logging_mixin.py:109} INFO - [2022-01-13 23:07:02,220] {dag.py:2935} INFO - Setting next_dagrun for latest_only to 2022-01-13T22:07:02.219944+00:00
+[2022-01-13 23:07:02,237] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.101 seconds
+[2022-01-13 23:10:58,482] {processor.py:163} INFO - Started process (PID=25327) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:10:58,503] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-01-13 23:10:58,504] {logging_mixin.py:109} INFO - [2022-01-13 23:10:58,504] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:10:58,596] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:10:58,639] {logging_mixin.py:109} INFO - [2022-01-13 23:10:58,639] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:10:58,714] {logging_mixin.py:109} INFO - [2022-01-13 23:10:58,714] {dag.py:2935} INFO - Setting next_dagrun for latest_only to 2022-01-13T22:10:58.713777+00:00
+[2022-01-13 23:10:58,753] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.275 seconds
+[2022-01-13 23:14:22,085] {processor.py:163} INFO - Started process (PID=25733) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:14:22,106] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-01-13 23:14:22,129] {logging_mixin.py:109} INFO - [2022-01-13 23:14:22,129] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:14:22,211] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:14:22,245] {logging_mixin.py:109} INFO - [2022-01-13 23:14:22,245] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:14:22,381] {logging_mixin.py:109} INFO - [2022-01-13 23:14:22,381] {dag.py:2935} INFO - Setting next_dagrun for latest_only to 2022-01-13T22:14:22.380845+00:00
+[2022-01-13 23:14:22,420] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.338 seconds
+[2022-01-13 23:16:11,903] {processor.py:163} INFO - Started process (PID=26174) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:16:11,923] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-01-13 23:16:11,924] {logging_mixin.py:109} INFO - [2022-01-13 23:16:11,924] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:16:11,970] {processor.py:654} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-01-13 23:16:12,001] {logging_mixin.py:109} INFO - [2022-01-13 23:16:12,001] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:16:12,074] {logging_mixin.py:109} INFO - [2022-01-13 23:16:12,074] {dag.py:2935} INFO - Setting next_dagrun for latest_only to 2022-01-13T22:16:12.035710+00:00
+[2022-01-13 23:16:12,106] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.205 seconds

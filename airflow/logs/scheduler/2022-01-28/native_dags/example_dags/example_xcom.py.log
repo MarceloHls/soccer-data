@@ -1,0 +1,105 @@
+[2022-01-28 20:49:29,522] {processor.py:163} INFO - Started process (PID=16359) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:49:29,522] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:49:29,523] {logging_mixin.py:109} INFO - [2022-01-28 20:49:29,523] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:49:29,651] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:49:31,017] {logging_mixin.py:109} INFO - [2022-01-28 20:49:31,017] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:49:31,052] {logging_mixin.py:109} INFO - [2022-01-28 20:49:31,052] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:49:31,208] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 1.717 seconds
+[2022-01-28 20:50:11,214] {processor.py:163} INFO - Started process (PID=16579) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:50:11,223] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:50:11,224] {logging_mixin.py:109} INFO - [2022-01-28 20:50:11,224] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:50:11,259] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:50:11,442] {logging_mixin.py:109} INFO - [2022-01-28 20:50:11,442] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:50:11,451] {logging_mixin.py:109} INFO - [2022-01-28 20:50:11,451] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:50:11,470] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.261 seconds
+[2022-01-28 20:50:48,478] {processor.py:163} INFO - Started process (PID=16743) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:50:48,480] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:50:48,481] {logging_mixin.py:109} INFO - [2022-01-28 20:50:48,480] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:50:48,530] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:50:48,892] {logging_mixin.py:109} INFO - [2022-01-28 20:50:48,892] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:50:48,914] {logging_mixin.py:109} INFO - [2022-01-28 20:50:48,913] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:50:48,944] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.480 seconds
+[2022-01-28 20:51:25,996] {processor.py:163} INFO - Started process (PID=16904) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:51:26,011] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:51:26,011] {logging_mixin.py:109} INFO - [2022-01-28 20:51:26,011] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:51:26,049] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:51:26,440] {logging_mixin.py:109} INFO - [2022-01-28 20:51:26,440] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:51:26,460] {logging_mixin.py:109} INFO - [2022-01-28 20:51:26,460] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:51:26,535] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.542 seconds
+[2022-01-28 20:52:02,410] {processor.py:163} INFO - Started process (PID=17270) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:52:02,412] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:52:02,412] {logging_mixin.py:109} INFO - [2022-01-28 20:52:02,412] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:52:02,495] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:52:03,161] {logging_mixin.py:109} INFO - [2022-01-28 20:52:03,161] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:52:03,222] {logging_mixin.py:109} INFO - [2022-01-28 20:52:03,222] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:52:03,272] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.887 seconds
+[2022-01-28 20:52:40,828] {processor.py:163} INFO - Started process (PID=17445) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:52:40,840] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:52:40,840] {logging_mixin.py:109} INFO - [2022-01-28 20:52:40,840] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:52:40,906] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:52:41,476] {logging_mixin.py:109} INFO - [2022-01-28 20:52:41,476] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:52:41,501] {logging_mixin.py:109} INFO - [2022-01-28 20:52:41,500] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:52:41,563] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.737 seconds
+[2022-01-28 20:53:26,434] {processor.py:163} INFO - Started process (PID=17632) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:53:26,435] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:53:26,436] {logging_mixin.py:109} INFO - [2022-01-28 20:53:26,436] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:53:26,527] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:53:27,330] {logging_mixin.py:109} INFO - [2022-01-28 20:53:27,330] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:53:27,362] {logging_mixin.py:109} INFO - [2022-01-28 20:53:27,362] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:53:27,431] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 1.024 seconds
+[2022-01-28 20:54:07,932] {processor.py:163} INFO - Started process (PID=17781) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:54:07,956] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:54:07,956] {logging_mixin.py:109} INFO - [2022-01-28 20:54:07,956] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:54:08,000] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:54:08,321] {logging_mixin.py:109} INFO - [2022-01-28 20:54:08,321] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:54:08,337] {logging_mixin.py:109} INFO - [2022-01-28 20:54:08,337] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:54:08,383] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.457 seconds
+[2022-01-28 20:54:51,471] {processor.py:163} INFO - Started process (PID=17920) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:54:51,495] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:54:51,495] {logging_mixin.py:109} INFO - [2022-01-28 20:54:51,495] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:54:51,589] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:54:52,576] {logging_mixin.py:109} INFO - [2022-01-28 20:54:52,576] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:54:52,660] {logging_mixin.py:109} INFO - [2022-01-28 20:54:52,660] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:54:52,756] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 1.287 seconds
+[2022-01-28 20:55:34,216] {processor.py:163} INFO - Started process (PID=18075) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:55:34,218] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:55:34,219] {logging_mixin.py:109} INFO - [2022-01-28 20:55:34,219] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:55:34,479] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:55:35,840] {logging_mixin.py:109} INFO - [2022-01-28 20:55:35,840] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:55:35,947] {logging_mixin.py:109} INFO - [2022-01-28 20:55:35,947] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:55:36,064] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 1.867 seconds
+[2022-01-28 20:56:27,019] {processor.py:163} INFO - Started process (PID=18239) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:56:27,028] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:56:27,028] {logging_mixin.py:109} INFO - [2022-01-28 20:56:27,028] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:56:27,140] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:56:27,891] {logging_mixin.py:109} INFO - [2022-01-28 20:56:27,891] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:56:27,930] {logging_mixin.py:109} INFO - [2022-01-28 20:56:27,930] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:56:27,997] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.981 seconds
+[2022-01-28 20:57:10,504] {processor.py:163} INFO - Started process (PID=18393) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:57:10,506] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:57:10,507] {logging_mixin.py:109} INFO - [2022-01-28 20:57:10,507] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:57:10,577] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:57:11,042] {logging_mixin.py:109} INFO - [2022-01-28 20:57:11,042] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:57:11,064] {logging_mixin.py:109} INFO - [2022-01-28 20:57:11,063] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:57:11,099] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.598 seconds
+[2022-01-28 20:57:48,889] {processor.py:163} INFO - Started process (PID=18527) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:57:48,895] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:57:48,895] {logging_mixin.py:109} INFO - [2022-01-28 20:57:48,895] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:57:48,988] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:57:49,758] {logging_mixin.py:109} INFO - [2022-01-28 20:57:49,758] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:57:49,793] {logging_mixin.py:109} INFO - [2022-01-28 20:57:49,793] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:57:49,859] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.972 seconds
+[2022-01-28 20:58:37,999] {processor.py:163} INFO - Started process (PID=18693) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:58:38,014] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:58:38,016] {logging_mixin.py:109} INFO - [2022-01-28 20:58:38,016] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:58:38,155] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:58:39,426] {logging_mixin.py:109} INFO - [2022-01-28 20:58:39,425] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:58:39,502] {logging_mixin.py:109} INFO - [2022-01-28 20:58:39,502] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:58:39,555] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 1.560 seconds
+[2022-01-28 20:59:43,420] {processor.py:163} INFO - Started process (PID=18864) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:59:43,427] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-01-28 20:59:43,428] {logging_mixin.py:109} INFO - [2022-01-28 20:59:43,428] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:59:43,807] {processor.py:654} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-01-28 20:59:45,946] {logging_mixin.py:109} INFO - [2022-01-28 20:59:45,945] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:59:46,006] {logging_mixin.py:109} INFO - [2022-01-28 20:59:45,981] {dag.py:2935} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2022-01-28 20:59:46,066] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 2.716 seconds

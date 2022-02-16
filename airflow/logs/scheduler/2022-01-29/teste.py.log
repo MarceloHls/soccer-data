@@ -1,0 +1,1635 @@
+[2022-01-28 21:00:10,834] {processor.py:163} INFO - Started process (PID=18961) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:00:10,856] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:00:10,857] {logging_mixin.py:109} INFO - [2022-01-28 21:00:10,857] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:00:11,795] {logging_mixin.py:109} INFO - [2022-01-28 21:00:11,795] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    python_callable=task_extrat_save_playes(teste),
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 48, in task_extrat_save_playes
+    param.code_ligue,
+AttributeError: 'dict' object has no attribute 'code_ligue'
+[2022-01-28 21:00:11,815] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:00:11,859] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.027 seconds
+[2022-01-28 21:07:49,813] {processor.py:163} INFO - Started process (PID=19634) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:07:49,831] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:07:49,832] {logging_mixin.py:109} INFO - [2022-01-28 21:07:49,832] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:07:51,240] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:07:54,917] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:07:54,964] {logging_mixin.py:109} INFO - [2022-01-28 21:07:54,963] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:07:54,970] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:07:55,012] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 5.202 seconds
+[2022-01-28 21:08:38,992] {processor.py:163} INFO - Started process (PID=19850) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:08:39,006] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:08:39,007] {logging_mixin.py:109} INFO - [2022-01-28 21:08:39,007] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:08:39,970] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:08:41,722] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:08:41,770] {logging_mixin.py:109} INFO - [2022-01-28 21:08:41,769] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:08:41,802] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:08:41,838] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.861 seconds
+[2022-01-28 21:09:12,830] {processor.py:163} INFO - Started process (PID=19967) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:09:12,851] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:09:12,852] {logging_mixin.py:109} INFO - [2022-01-28 21:09:12,852] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:09:14,111] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:09:16,935] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:09:16,986] {logging_mixin.py:109} INFO - [2022-01-28 21:09:16,985] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:09:16,991] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:09:17,047] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 4.220 seconds
+[2022-01-28 21:09:54,239] {processor.py:163} INFO - Started process (PID=20117) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:09:54,241] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:09:54,242] {logging_mixin.py:109} INFO - [2022-01-28 21:09:54,242] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:09:55,316] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:09:57,547] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:09:57,580] {logging_mixin.py:109} INFO - [2022-01-28 21:09:57,579] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:09:57,585] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:09:57,618] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 3.396 seconds
+[2022-01-28 21:10:29,159] {processor.py:163} INFO - Started process (PID=20245) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:10:29,167] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:10:29,169] {logging_mixin.py:109} INFO - [2022-01-28 21:10:29,169] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:10:29,716] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:10:31,024] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:10:31,078] {logging_mixin.py:109} INFO - [2022-01-28 21:10:31,077] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:10:31,110] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:10:31,136] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.981 seconds
+[2022-01-28 21:11:02,654] {processor.py:163} INFO - Started process (PID=20389) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:11:02,657] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:11:02,658] {logging_mixin.py:109} INFO - [2022-01-28 21:11:02,658] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:11:03,444] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:11:05,130] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:11:05,186] {logging_mixin.py:109} INFO - [2022-01-28 21:11:05,174] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:11:05,191] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:11:05,248] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.610 seconds
+[2022-01-28 21:11:39,349] {processor.py:163} INFO - Started process (PID=20525) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:11:39,357] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:11:39,358] {logging_mixin.py:109} INFO - [2022-01-28 21:11:39,358] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:11:39,915] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:11:41,248] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:11:41,282] {logging_mixin.py:109} INFO - [2022-01-28 21:11:41,282] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:11:41,288] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:11:41,343] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.013 seconds
+[2022-01-28 21:12:16,912] {processor.py:163} INFO - Started process (PID=20674) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:12:16,916] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:12:16,917] {logging_mixin.py:109} INFO - [2022-01-28 21:12:16,917] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:12:17,430] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:12:18,601] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:12:18,619] {logging_mixin.py:109} INFO - [2022-01-28 21:12:18,618] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:12:18,635] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:12:18,650] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.740 seconds
+[2022-01-28 21:12:52,975] {processor.py:163} INFO - Started process (PID=20815) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:12:52,997] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:12:52,998] {logging_mixin.py:109} INFO - [2022-01-28 21:12:52,998] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:12:53,523] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:12:55,135] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:12:55,160] {logging_mixin.py:109} INFO - [2022-01-28 21:12:55,159] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:12:55,165] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:12:55,192] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.219 seconds
+[2022-01-28 21:13:31,077] {processor.py:163} INFO - Started process (PID=20955) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:13:31,097] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:13:31,098] {logging_mixin.py:109} INFO - [2022-01-28 21:13:31,098] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:13:32,266] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:13:33,802] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:13:33,823] {logging_mixin.py:109} INFO - [2022-01-28 21:13:33,823] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:13:33,830] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:13:33,916] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.851 seconds
+[2022-01-28 21:14:16,071] {processor.py:163} INFO - Started process (PID=21119) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:14:16,110] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:14:16,111] {logging_mixin.py:109} INFO - [2022-01-28 21:14:16,111] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:14:17,016] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:14:19,193] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:14:19,249] {logging_mixin.py:109} INFO - [2022-01-28 21:14:19,248] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 66, in <module>
+    task_extrat_save_playes(teste)
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 54, in task_extrat_save_playes
+    save_data(
+TypeError: save_data() got an unexpected keyword argument 'path_datalake'
+[2022-01-28 21:14:19,271] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:14:19,310] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 3.243 seconds
+[2022-01-28 21:14:53,438] {processor.py:163} INFO - Started process (PID=21254) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:14:53,446] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:14:53,463] {logging_mixin.py:109} INFO - [2022-01-28 21:14:53,455] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:14:54,901] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:15:02,494] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:15:02,551] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:15:02,706] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:15:02,745] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:15:06,993] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:15:07,027] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:15:07,193] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:15:07,233] {logging_mixin.py:109} INFO - [2022-01-28 21:15:07,232] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:15:07,239] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:15:07,317] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 13.882 seconds
+[2022-01-28 21:15:57,338] {processor.py:163} INFO - Started process (PID=21457) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:15:57,349] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:15:57,374] {logging_mixin.py:109} INFO - [2022-01-28 21:15:57,373] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:15:58,450] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:16:00,799] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:16:00,849] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:16:01,000] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:16:01,033] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:16:03,279] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:16:03,291] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:16:03,385] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:16:03,409] {logging_mixin.py:109} INFO - [2022-01-28 21:16:03,407] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:16:03,418] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:16:03,462] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 6.127 seconds
+[2022-01-28 21:16:44,741] {processor.py:163} INFO - Started process (PID=21605) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:16:44,764] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:16:44,766] {logging_mixin.py:109} INFO - [2022-01-28 21:16:44,765] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:16:45,911] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:16:48,009] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:16:48,043] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:16:48,150] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:16:48,188] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:16:51,140] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:16:51,143] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:16:51,308] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:16:51,335] {logging_mixin.py:109} INFO - [2022-01-28 21:16:51,333] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:16:51,342] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:16:51,408] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 6.671 seconds
+[2022-01-28 21:17:34,376] {processor.py:163} INFO - Started process (PID=21756) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:17:34,389] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:17:34,390] {logging_mixin.py:109} INFO - [2022-01-28 21:17:34,390] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:17:35,791] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:17:38,695] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:17:38,726] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:17:38,904] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:17:38,923] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:17:41,571] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:17:41,579] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:17:41,700] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:17:41,736] {logging_mixin.py:109} INFO - [2022-01-28 21:17:41,736] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:17:41,744] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:17:41,798] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 7.440 seconds
+[2022-01-28 21:18:25,146] {processor.py:163} INFO - Started process (PID=21916) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:18:25,204] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:18:25,204] {logging_mixin.py:109} INFO - [2022-01-28 21:18:25,204] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:18:26,906] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:18:30,174] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:18:30,213] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:18:30,395] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:18:30,410] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:18:33,139] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:18:33,153] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:18:33,263] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:18:33,284] {logging_mixin.py:109} INFO - [2022-01-28 21:18:33,282] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:18:33,304] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:18:33,328] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 8.203 seconds
+[2022-01-28 21:19:20,278] {processor.py:163} INFO - Started process (PID=22078) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:19:20,304] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:19:20,304] {logging_mixin.py:109} INFO - [2022-01-28 21:19:20,304] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:19:21,315] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:19:23,409] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:19:23,446] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:19:23,545] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:19:23,566] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:19:26,062] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:19:26,063] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:19:26,173] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:19:26,287] {logging_mixin.py:109} INFO - [2022-01-28 21:19:26,286] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:19:26,303] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:19:26,341] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 6.066 seconds
+[2022-01-28 21:20:09,921] {processor.py:163} INFO - Started process (PID=22251) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:20:09,935] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:20:09,935] {logging_mixin.py:109} INFO - [2022-01-28 21:20:09,935] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:20:10,691] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:20:12,987] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:20:13,008] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:20:13,082] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:20:13,097] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:20:14,451] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:20:14,469] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:20:14,555] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:20:14,575] {logging_mixin.py:109} INFO - [2022-01-28 21:20:14,574] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:20:14,595] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:20:14,618] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 4.712 seconds
+[2022-01-28 21:20:51,948] {processor.py:163} INFO - Started process (PID=22392) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:20:51,961] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:20:51,962] {logging_mixin.py:109} INFO - [2022-01-28 21:20:51,962] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:20:52,920] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:20:54,456] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:20:54,482] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:20:54,550] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:20:54,568] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:20:56,617] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:20:56,623] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:20:56,829] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:20:56,865] {logging_mixin.py:109} INFO - [2022-01-28 21:20:56,864] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:20:56,887] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:20:56,919] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 4.974 seconds
+[2022-01-28 21:21:35,899] {processor.py:163} INFO - Started process (PID=22555) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:21:35,906] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:21:35,907] {logging_mixin.py:109} INFO - [2022-01-28 21:21:35,907] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:21:36,679] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:21:39,278] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:21:39,344] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:21:39,422] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:21:39,440] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:21:41,166] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:21:41,167] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:21:41,263] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:21:41,291] {logging_mixin.py:109} INFO - [2022-01-28 21:21:41,290] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:21:41,310] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:21:41,341] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 5.454 seconds
+[2022-01-28 21:22:26,418] {processor.py:163} INFO - Started process (PID=22739) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:22:26,438] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:22:26,439] {logging_mixin.py:109} INFO - [2022-01-28 21:22:26,439] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:22:27,839] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:22:30,297] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:22:30,349] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:22:30,458] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:22:30,489] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:22:32,876] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:22:32,878] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:22:33,005] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:22:33,045] {logging_mixin.py:109} INFO - [2022-01-28 21:22:33,044] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 68, in <module>
+    t1 = PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 160, in __init__
+    raise AirflowException('`python_callable` param must be callable')
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2022-01-28 21:22:33,050] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:22:33,094] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 6.679 seconds
+[2022-01-28 21:25:59,858] {processor.py:163} INFO - Started process (PID=22818) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:25:59,872] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:25:59,873] {logging_mixin.py:109} INFO - [2022-01-28 21:25:59,873] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:26:01,161] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:26:01,622] {logging_mixin.py:109} INFO - [2022-01-28 21:26:01,622] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:26:01,653] {logging_mixin.py:109} INFO - [2022-01-28 21:26:01,653] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:26:01.138931+00:00
+[2022-01-28 21:26:01,701] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.845 seconds
+[2022-01-28 21:26:46,971] {processor.py:163} INFO - Started process (PID=22997) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:26:46,976] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:26:46,978] {logging_mixin.py:109} INFO - [2022-01-28 21:26:46,978] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:26:47,922] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:26:48,297] {logging_mixin.py:109} INFO - [2022-01-28 21:26:48,297] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:26:48,318] {logging_mixin.py:109} INFO - [2022-01-28 21:26:48,318] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:26:47.900523+00:00
+[2022-01-28 21:26:48,344] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.378 seconds
+[2022-01-28 21:27:28,627] {processor.py:163} INFO - Started process (PID=23159) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:27:28,631] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:27:28,632] {logging_mixin.py:109} INFO - [2022-01-28 21:27:28,631] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:27:29,752] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:27:30,188] {logging_mixin.py:109} INFO - [2022-01-28 21:27:30,188] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:27:30,229] {logging_mixin.py:109} INFO - [2022-01-28 21:27:30,229] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:27:29.734347+00:00
+[2022-01-28 21:27:30,265] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.640 seconds
+[2022-01-28 21:28:22,035] {processor.py:163} INFO - Started process (PID=23359) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:28:22,058] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:28:22,059] {logging_mixin.py:109} INFO - [2022-01-28 21:28:22,059] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:28:24,364] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:28:25,276] {logging_mixin.py:109} INFO - [2022-01-28 21:28:25,275] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:28:25,322] {logging_mixin.py:109} INFO - [2022-01-28 21:28:25,322] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:28:24.334195+00:00
+[2022-01-28 21:28:25,469] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 3.451 seconds
+[2022-01-28 21:29:20,086] {processor.py:163} INFO - Started process (PID=23538) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:29:20,114] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:29:20,117] {logging_mixin.py:109} INFO - [2022-01-28 21:29:20,117] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:29:20,829] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:29:21,173] {logging_mixin.py:109} INFO - [2022-01-28 21:29:21,173] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:29:21,188] {logging_mixin.py:109} INFO - [2022-01-28 21:29:21,188] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:29:20.817399+00:00
+[2022-01-28 21:29:21,221] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.139 seconds
+[2022-01-28 21:29:57,003] {processor.py:163} INFO - Started process (PID=23662) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:29:57,014] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:29:57,019] {logging_mixin.py:109} INFO - [2022-01-28 21:29:57,018] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:29:58,092] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:29:58,380] {logging_mixin.py:109} INFO - [2022-01-28 21:29:58,379] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:29:58,391] {logging_mixin.py:109} INFO - [2022-01-28 21:29:58,391] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:29:58.081912+00:00
+[2022-01-28 21:29:58,421] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.427 seconds
+[2022-01-28 21:30:30,187] {processor.py:163} INFO - Started process (PID=23785) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:30:30,211] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:30:30,212] {logging_mixin.py:109} INFO - [2022-01-28 21:30:30,212] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:30:32,500] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:30:33,244] {logging_mixin.py:109} INFO - [2022-01-28 21:30:33,244] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:30:33,256] {logging_mixin.py:109} INFO - [2022-01-28 21:30:33,256] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:30:32.451926+00:00
+[2022-01-28 21:30:33,358] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 3.175 seconds
+[2022-01-28 21:31:10,332] {processor.py:163} INFO - Started process (PID=23918) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:31:10,344] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:31:10,345] {logging_mixin.py:109} INFO - [2022-01-28 21:31:10,345] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:31:11,586] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:31:12,318] {logging_mixin.py:109} INFO - [2022-01-28 21:31:12,318] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:31:12,354] {logging_mixin.py:109} INFO - [2022-01-28 21:31:12,354] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:31:11.554703+00:00
+[2022-01-28 21:31:12,426] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.098 seconds
+[2022-01-28 21:31:58,187] {processor.py:163} INFO - Started process (PID=24087) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:31:58,192] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:31:58,194] {logging_mixin.py:109} INFO - [2022-01-28 21:31:58,193] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:31:58,995] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:31:59,460] {logging_mixin.py:109} INFO - [2022-01-28 21:31:59,460] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:31:59,479] {logging_mixin.py:109} INFO - [2022-01-28 21:31:59,479] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:31:58.980413+00:00
+[2022-01-28 21:31:59,517] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.337 seconds
+[2022-01-28 21:32:43,108] {processor.py:163} INFO - Started process (PID=24251) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:32:43,111] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:32:43,112] {logging_mixin.py:109} INFO - [2022-01-28 21:32:43,112] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:32:44,021] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:32:44,288] {logging_mixin.py:109} INFO - [2022-01-28 21:32:44,288] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:32:44,311] {logging_mixin.py:109} INFO - [2022-01-28 21:32:44,310] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:32:44.012624+00:00
+[2022-01-28 21:32:44,327] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.231 seconds
+[2022-01-28 21:33:23,065] {processor.py:163} INFO - Started process (PID=24410) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:33:23,081] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:33:23,082] {logging_mixin.py:109} INFO - [2022-01-28 21:33:23,082] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:33:23,753] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:33:24,108] {logging_mixin.py:109} INFO - [2022-01-28 21:33:24,108] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:33:24,122] {logging_mixin.py:109} INFO - [2022-01-28 21:33:24,122] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:33:23.737247+00:00
+[2022-01-28 21:33:24,142] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.081 seconds
+[2022-01-28 21:33:57,171] {processor.py:163} INFO - Started process (PID=24542) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:33:57,189] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:33:57,192] {logging_mixin.py:109} INFO - [2022-01-28 21:33:57,192] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:33:58,269] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:33:58,536] {logging_mixin.py:109} INFO - [2022-01-28 21:33:58,536] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:33:58,549] {logging_mixin.py:109} INFO - [2022-01-28 21:33:58,549] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:33:58.254546+00:00
+[2022-01-28 21:33:58,590] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.431 seconds
+[2022-01-28 21:34:31,624] {processor.py:163} INFO - Started process (PID=24675) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:34:31,646] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:34:31,647] {logging_mixin.py:109} INFO - [2022-01-28 21:34:31,647] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:34:32,449] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:34:32,655] {logging_mixin.py:109} INFO - [2022-01-28 21:34:32,654] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 21:34:32,670] {logging_mixin.py:109} INFO - [2022-01-28 21:34:32,670] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T21:34:32.436599+00:00
+[2022-01-28 21:34:32,715] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.094 seconds
+[2022-01-28 21:55:41,122] {processor.py:163} INFO - Started process (PID=24938) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:55:41,139] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:55:41,139] {logging_mixin.py:109} INFO - [2022-01-28 21:55:41,139] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:55:42,387] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:55:45,545] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:55:45,577] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:55:45,712] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:55:45,766] {logging_mixin.py:109} INFO - [2022-01-28 21:55:45,766] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 21:55:45,771] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:55:45,771] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:55:45,850] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 4.731 seconds
+[2022-01-28 21:56:32,227] {processor.py:163} INFO - Started process (PID=25131) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:56:32,235] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:56:32,236] {logging_mixin.py:109} INFO - [2022-01-28 21:56:32,236] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:56:33,311] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:56:35,555] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:56:35,580] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:56:35,653] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:56:35,677] {logging_mixin.py:109} INFO - [2022-01-28 21:56:35,676] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 21:56:35,683] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:56:35,733] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 3.508 seconds
+[2022-01-28 21:57:09,817] {processor.py:163} INFO - Started process (PID=25261) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:57:09,821] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:57:09,824] {logging_mixin.py:109} INFO - [2022-01-28 21:57:09,824] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:57:10,330] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:57:11,901] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:57:11,914] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:57:11,962] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:57:11,976] {logging_mixin.py:109} INFO - [2022-01-28 21:57:11,975] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 21:57:11,980] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:57:12,028] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.220 seconds
+[2022-01-28 21:57:50,365] {processor.py:163} INFO - Started process (PID=25418) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:57:50,416] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:57:50,417] {logging_mixin.py:109} INFO - [2022-01-28 21:57:50,417] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:57:50,868] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:57:51,893] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:57:51,912] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:57:51,957] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:57:51,971] {logging_mixin.py:109} INFO - [2022-01-28 21:57:51,970] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 21:57:51,975] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:57:52,010] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.662 seconds
+[2022-01-28 21:58:29,368] {processor.py:163} INFO - Started process (PID=25578) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:58:29,383] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:58:29,383] {logging_mixin.py:109} INFO - [2022-01-28 21:58:29,383] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:58:30,264] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:58:31,984] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:58:31,999] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:58:32,038] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:58:32,063] {logging_mixin.py:109} INFO - [2022-01-28 21:58:32,062] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 21:58:32,067] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:58:32,103] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.748 seconds
+[2022-01-28 21:59:05,065] {processor.py:163} INFO - Started process (PID=25709) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:59:05,068] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:59:05,069] {logging_mixin.py:109} INFO - [2022-01-28 21:59:05,069] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:59:05,586] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:59:07,376] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:59:07,398] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:59:07,447] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:59:07,469] {logging_mixin.py:109} INFO - [2022-01-28 21:59:07,468] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 21:59:07,476] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:59:07,492] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.430 seconds
+[2022-01-28 21:59:44,538] {processor.py:163} INFO - Started process (PID=25861) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:59:44,541] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 21:59:44,542] {logging_mixin.py:109} INFO - [2022-01-28 21:59:44,542] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:59:45,004] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 21:59:45,902] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 21:59:45,911] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 21:59:45,961] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 21:59:45,976] {logging_mixin.py:109} INFO - [2022-01-28 21:59:45,975] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 21:59:45,981] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 21:59:45,994] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.458 seconds
+[2022-01-28 22:00:17,651] {processor.py:163} INFO - Started process (PID=25989) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:00:17,654] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:00:17,655] {logging_mixin.py:109} INFO - [2022-01-28 22:00:17,655] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:00:18,188] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 22:00:19,136] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 22:00:19,159] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 22:00:19,206] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 22:00:19,217] {logging_mixin.py:109} INFO - [2022-01-28 22:00:19,216] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 22:00:19,221] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:00:19,236] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.587 seconds
+[2022-01-28 22:00:56,112] {processor.py:163} INFO - Started process (PID=26149) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:00:56,143] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:00:56,144] {logging_mixin.py:109} INFO - [2022-01-28 22:00:56,144] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:00:56,584] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 22:00:57,563] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 22:00:57,580] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 22:00:57,668] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 22:00:57,689] {logging_mixin.py:109} INFO - [2022-01-28 22:00:57,688] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 22:00:57,693] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:00:57,737] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.629 seconds
+[2022-01-28 22:01:36,568] {processor.py:163} INFO - Started process (PID=26307) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:01:36,582] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:01:36,582] {logging_mixin.py:109} INFO - [2022-01-28 22:01:36,582] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:01:37,262] {logging_mixin.py:109} INFO - Acess: https://fbref.com/en/comps/9/stats/Premier-League-Stats
+[2022-01-28 22:01:38,308] {logging_mixin.py:109} INFO - Extraiu o dados
+[2022-01-28 22:01:38,336] {logging_mixin.py:109} INFO - datalake/raw/premier_ligue_players/extract_date=2022/01/28
+[2022-01-28 22:01:38,408] {logging_mixin.py:109} INFO -       Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+0      1           Max Aarons  eng ENG     DF     Norwich City  ...  0.04   0.07  0.03     0.07  Matches
+1      2            Che Adams  sct SCO     FW      Southampton  ...  0.13   0.36  0.24     0.36  Matches
+2      3      Rayan Aït Nouri   fr FRA     DF           Wolves  ...  0.09   0.12  0.03     0.12  Matches
+3      4      Kristoffer Ajer   no NOR     DF        Brentford  ...  0.06   0.08  0.02     0.08  Matches
+4      5           Nathan Aké   nl NED     DF  Manchester City  ...  0.00   0.04  0.04     0.04  Matches
+..   ...                  ...      ...    ...              ...  ...   ...    ...   ...      ...      ...
+516  498  Oleksandr Zinchenko   ua UKR     DF  Manchester City  ...  0.09   0.11  0.02     0.11  Matches
+517  499         Hakim Ziyech   ma MAR  FW,MF          Chelsea  ...  0.20   0.52  0.32     0.52  Matches
+518  500           Kurt Zouma   fr FRA     DF         West Ham  ...  0.00   0.03  0.03     0.03  Matches
+519   Rk               Player   Nation    Pos            Squad  ...    xA  xG+xA  npxG  npxG+xA  Matches
+520  501      Martin Ødegaard   no NOR     MF          Arsenal  ...  0.24   0.37  0.12     0.37  Matches
+
+[521 rows x 33 columns]
+[2022-01-28 22:01:38,419] {logging_mixin.py:109} INFO - [2022-01-28 22:01:38,418] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 83, in <module>
+    push_func >> task_extrat_save_playes(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 64, in __rshift__
+    self.set_downstream(other)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1481, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1419, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: 'NoneType' object has no attribute 'update_relative'
+[2022-01-28 22:01:38,423] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:01:38,442] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.892 seconds
+[2022-01-28 22:03:54,942] {processor.py:163} INFO - Started process (PID=26457) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:03:54,962] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:03:54,962] {logging_mixin.py:109} INFO - [2022-01-28 22:03:54,962] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:03:56,065] {logging_mixin.py:109} INFO - [2022-01-28 22:03:56,064] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 95, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 75, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'push_func' has already been added to the DAG
+[2022-01-28 22:03:56,070] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:03:56,131] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.192 seconds
+[2022-01-28 22:04:37,764] {processor.py:163} INFO - Started process (PID=26642) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:04:37,769] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:04:37,771] {logging_mixin.py:109} INFO - [2022-01-28 22:04:37,771] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:04:38,351] {logging_mixin.py:109} INFO - [2022-01-28 22:04:38,350] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 95, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 75, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'push_func' has already been added to the DAG
+[2022-01-28 22:04:38,358] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:04:38,373] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.614 seconds
+[2022-01-28 22:05:16,372] {processor.py:163} INFO - Started process (PID=26794) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:05:16,417] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:05:16,417] {logging_mixin.py:109} INFO - [2022-01-28 22:05:16,417] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:05:16,893] {logging_mixin.py:109} INFO - [2022-01-28 22:05:16,892] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 95, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 75, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'push_func' has already been added to the DAG
+[2022-01-28 22:05:16,906] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:05:16,919] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.565 seconds
+[2022-01-28 22:05:56,358] {processor.py:163} INFO - Started process (PID=26947) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:05:56,382] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:05:56,385] {logging_mixin.py:109} INFO - [2022-01-28 22:05:56,384] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:05:56,975] {logging_mixin.py:109} INFO - [2022-01-28 22:05:56,974] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 95, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 75, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'push_func' has already been added to the DAG
+[2022-01-28 22:05:56,982] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:05:57,007] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.653 seconds
+[2022-01-28 22:06:28,574] {processor.py:163} INFO - Started process (PID=27080) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:06:28,590] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:06:28,591] {logging_mixin.py:109} INFO - [2022-01-28 22:06:28,591] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:06:29,005] {logging_mixin.py:109} INFO - [2022-01-28 22:06:29,004] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 95, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 75, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'push_func' has already been added to the DAG
+[2022-01-28 22:06:29,012] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:06:29,025] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.455 seconds
+[2022-01-28 22:07:01,809] {processor.py:163} INFO - Started process (PID=27222) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:07:01,836] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:07:01,837] {logging_mixin.py:109} INFO - [2022-01-28 22:07:01,837] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:07:03,347] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:07:03,805] {logging_mixin.py:109} INFO - [2022-01-28 22:07:03,805] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:07:03,832] {logging_mixin.py:109} INFO - [2022-01-28 22:07:03,832] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:07:03.323562+00:00
+[2022-01-28 22:07:03,899] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.102 seconds
+[2022-01-28 22:07:35,861] {processor.py:163} INFO - Started process (PID=27350) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:07:35,878] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:07:35,880] {logging_mixin.py:109} INFO - [2022-01-28 22:07:35,880] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:07:36,826] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:07:37,301] {logging_mixin.py:109} INFO - [2022-01-28 22:07:37,301] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:07:37,313] {logging_mixin.py:109} INFO - [2022-01-28 22:07:37,313] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:07:36.796868+00:00
+[2022-01-28 22:07:37,351] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.492 seconds
+[2022-01-28 22:08:17,324] {processor.py:163} INFO - Started process (PID=27520) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:08:17,336] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:08:17,336] {logging_mixin.py:109} INFO - [2022-01-28 22:08:17,336] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:08:18,473] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:08:19,082] {logging_mixin.py:109} INFO - [2022-01-28 22:08:19,082] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:08:19,109] {logging_mixin.py:109} INFO - [2022-01-28 22:08:19,109] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:08:18.449422+00:00
+[2022-01-28 22:08:19,159] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.837 seconds
+[2022-01-28 22:08:54,640] {processor.py:163} INFO - Started process (PID=27673) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:08:54,646] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:08:54,650] {logging_mixin.py:109} INFO - [2022-01-28 22:08:54,650] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:08:55,391] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:08:56,098] {logging_mixin.py:109} INFO - [2022-01-28 22:08:56,098] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:08:56,131] {logging_mixin.py:109} INFO - [2022-01-28 22:08:56,131] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:08:55.362256+00:00
+[2022-01-28 22:08:56,186] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.551 seconds
+[2022-01-28 22:09:31,213] {processor.py:163} INFO - Started process (PID=27817) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:09:31,216] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:09:31,217] {logging_mixin.py:109} INFO - [2022-01-28 22:09:31,217] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:09:32,096] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:09:32,329] {logging_mixin.py:109} INFO - [2022-01-28 22:09:32,329] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:09:32,355] {logging_mixin.py:109} INFO - [2022-01-28 22:09:32,354] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:09:32.081006+00:00
+[2022-01-28 22:09:32,441] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.231 seconds
+[2022-01-28 22:10:13,031] {processor.py:163} INFO - Started process (PID=27988) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:10:13,047] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:10:13,048] {logging_mixin.py:109} INFO - [2022-01-28 22:10:13,048] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:10:13,743] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:10:14,154] {logging_mixin.py:109} INFO - [2022-01-28 22:10:14,154] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:10:14,166] {logging_mixin.py:109} INFO - [2022-01-28 22:10:14,166] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:10:13.723983+00:00
+[2022-01-28 22:10:14,210] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.182 seconds
+[2022-01-28 22:10:52,818] {processor.py:163} INFO - Started process (PID=28159) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:10:52,831] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:10:52,833] {logging_mixin.py:109} INFO - [2022-01-28 22:10:52,832] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:10:53,317] {logging_mixin.py:109} INFO - [2022-01-28 22:10:53,316] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 96, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 76, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aaa' has already been added to the DAG
+[2022-01-28 22:10:53,322] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:10:53,322] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:10:53,337] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.523 seconds
+[2022-01-28 22:11:30,249] {processor.py:163} INFO - Started process (PID=28320) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:11:30,260] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:11:30,260] {logging_mixin.py:109} INFO - [2022-01-28 22:11:30,260] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:11:30,668] {logging_mixin.py:109} INFO - [2022-01-28 22:11:30,667] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 96, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 76, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aaa' has already been added to the DAG
+[2022-01-28 22:11:30,673] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:11:30,688] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.454 seconds
+[2022-01-28 22:12:04,664] {processor.py:163} INFO - Started process (PID=28470) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:12:04,684] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:12:04,684] {logging_mixin.py:109} INFO - [2022-01-28 22:12:04,684] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:12:05,715] {logging_mixin.py:109} INFO - [2022-01-28 22:12:05,714] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 96, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 76, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aaa' has already been added to the DAG
+[2022-01-28 22:12:05,728] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:12:05,751] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.090 seconds
+[2022-01-28 22:12:47,111] {processor.py:163} INFO - Started process (PID=28637) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:12:47,124] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:12:47,124] {logging_mixin.py:109} INFO - [2022-01-28 22:12:47,124] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:12:48,378] {logging_mixin.py:109} INFO - [2022-01-28 22:12:48,376] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 96, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 76, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aaa' has already been added to the DAG
+[2022-01-28 22:12:48,415] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:12:48,459] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.351 seconds
+[2022-01-28 22:13:27,856] {processor.py:163} INFO - Started process (PID=28790) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:13:27,869] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:13:27,870] {logging_mixin.py:109} INFO - [2022-01-28 22:13:27,870] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:13:28,412] {logging_mixin.py:109} INFO - [2022-01-28 22:13:28,411] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 96, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 76, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aaa' has already been added to the DAG
+[2022-01-28 22:13:28,423] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:13:28,452] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.599 seconds
+[2022-01-28 22:14:14,993] {processor.py:163} INFO - Started process (PID=28981) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:14:15,016] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:14:15,016] {logging_mixin.py:109} INFO - [2022-01-28 22:14:15,016] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:14:17,136] {logging_mixin.py:109} INFO - [2022-01-28 22:14:17,135] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 97, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 77, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aaa' has already been added to the DAG
+[2022-01-28 22:14:17,152] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:14:17,216] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 2.255 seconds
+[2022-01-28 22:14:54,395] {processor.py:163} INFO - Started process (PID=29136) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:14:54,413] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:14:54,413] {logging_mixin.py:109} INFO - [2022-01-28 22:14:54,413] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:14:55,619] {logging_mixin.py:109} INFO - [2022-01-28 22:14:55,618] {dagbag.py:334} ERROR - Failed to import: /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+Traceback (most recent call last):
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 97, in <module>
+    push_func >> teste(i) >> complete
+  File "/home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py", line 77, in teste
+    return PythonOperator(
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/operators/python.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'aaa' has already been added to the DAG
+[2022-01-28 22:14:55,647] {processor.py:656} WARNING - No viable dags retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:14:55,684] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.313 seconds
+[2022-01-28 22:15:30,300] {processor.py:163} INFO - Started process (PID=29264) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:15:30,344] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:15:30,345] {logging_mixin.py:109} INFO - [2022-01-28 22:15:30,345] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:15:33,498] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:15:34,594] {logging_mixin.py:109} INFO - [2022-01-28 22:15:34,594] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:15:34,659] {logging_mixin.py:109} INFO - [2022-01-28 22:15:34,659] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:15:33.404184+00:00
+[2022-01-28 22:15:34,742] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 4.445 seconds
+[2022-01-28 22:16:18,442] {processor.py:163} INFO - Started process (PID=29429) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:16:18,467] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:16:18,468] {logging_mixin.py:109} INFO - [2022-01-28 22:16:18,467] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:16:19,562] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:16:19,975] {logging_mixin.py:109} INFO - [2022-01-28 22:16:19,974] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:16:20,007] {logging_mixin.py:109} INFO - [2022-01-28 22:16:20,007] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:16:19.524156+00:00
+[2022-01-28 22:16:20,060] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.621 seconds
+[2022-01-28 22:17:06,487] {processor.py:163} INFO - Started process (PID=29611) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:17:06,508] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:17:06,509] {logging_mixin.py:109} INFO - [2022-01-28 22:17:06,509] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:17:07,419] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:17:07,792] {logging_mixin.py:109} INFO - [2022-01-28 22:17:07,792] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:17:07,807] {logging_mixin.py:109} INFO - [2022-01-28 22:17:07,807] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:17:07.405636+00:00
+[2022-01-28 22:17:07,865] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.382 seconds
+[2022-01-28 22:17:38,284] {processor.py:163} INFO - Started process (PID=29733) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:17:38,312] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:17:38,313] {logging_mixin.py:109} INFO - [2022-01-28 22:17:38,313] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:17:39,510] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:17:40,140] {logging_mixin.py:109} INFO - [2022-01-28 22:17:40,140] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:17:40,166] {logging_mixin.py:109} INFO - [2022-01-28 22:17:40,165] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:17:39.446141+00:00
+[2022-01-28 22:17:40,219] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.938 seconds
+[2022-01-28 22:18:14,164] {processor.py:163} INFO - Started process (PID=29884) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:18:14,196] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:18:14,196] {logging_mixin.py:109} INFO - [2022-01-28 22:18:14,196] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:18:14,742] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:18:14,975] {logging_mixin.py:109} INFO - [2022-01-28 22:18:14,974] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:18:14,987] {logging_mixin.py:109} INFO - [2022-01-28 22:18:14,987] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:18:14.712856+00:00
+[2022-01-28 22:18:15,010] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.848 seconds
+[2022-01-28 22:18:50,220] {processor.py:163} INFO - Started process (PID=30025) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:18:50,281] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:18:50,283] {logging_mixin.py:109} INFO - [2022-01-28 22:18:50,283] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:18:51,537] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:18:52,016] {logging_mixin.py:109} INFO - [2022-01-28 22:18:52,016] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:18:52,058] {logging_mixin.py:109} INFO - [2022-01-28 22:18:52,058] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:18:51.507618+00:00
+[2022-01-28 22:18:52,104] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.887 seconds
+[2022-01-28 22:19:32,631] {processor.py:163} INFO - Started process (PID=30200) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:19:32,645] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:19:32,646] {logging_mixin.py:109} INFO - [2022-01-28 22:19:32,646] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:19:33,312] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:19:33,538] {logging_mixin.py:109} INFO - [2022-01-28 22:19:33,538] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:19:33,576] {logging_mixin.py:109} INFO - [2022-01-28 22:19:33,576] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:19:33.302936+00:00
+[2022-01-28 22:19:33,642] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.048 seconds
+[2022-01-28 22:20:05,993] {processor.py:163} INFO - Started process (PID=30319) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:20:05,996] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:20:05,997] {logging_mixin.py:109} INFO - [2022-01-28 22:20:05,997] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:20:06,439] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:20:06,899] {logging_mixin.py:109} INFO - [2022-01-28 22:20:06,899] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:20:06,919] {logging_mixin.py:109} INFO - [2022-01-28 22:20:06,919] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:20:06.425222+00:00
+[2022-01-28 22:20:06,983] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.006 seconds
+[2022-01-28 22:20:37,138] {processor.py:163} INFO - Started process (PID=30455) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:20:37,146] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:20:37,147] {logging_mixin.py:109} INFO - [2022-01-28 22:20:37,147] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:20:37,575] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:20:37,747] {logging_mixin.py:109} INFO - [2022-01-28 22:20:37,747] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:20:37,757] {logging_mixin.py:109} INFO - [2022-01-28 22:20:37,757] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:20:37.566136+00:00
+[2022-01-28 22:20:37,776] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.648 seconds
+[2022-01-28 22:21:15,087] {processor.py:163} INFO - Started process (PID=30617) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:21:15,310] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:21:15,313] {logging_mixin.py:109} INFO - [2022-01-28 22:21:15,313] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:21:15,788] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:21:15,958] {logging_mixin.py:109} INFO - [2022-01-28 22:21:15,957] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:21:15,968] {logging_mixin.py:109} INFO - [2022-01-28 22:21:15,968] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:21:15.778597+00:00
+[2022-01-28 22:21:16,026] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 1.023 seconds
+[2022-01-28 22:21:50,323] {processor.py:163} INFO - Started process (PID=30765) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:21:50,329] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:21:50,332] {logging_mixin.py:109} INFO - [2022-01-28 22:21:50,331] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:21:50,766] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:21:50,949] {logging_mixin.py:109} INFO - [2022-01-28 22:21:50,949] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:21:50,959] {logging_mixin.py:109} INFO - [2022-01-28 22:21:50,959] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:21:50.756815+00:00
+[2022-01-28 22:21:50,978] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.662 seconds
+[2022-01-28 22:22:22,657] {processor.py:163} INFO - Started process (PID=30910) to work on /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:22:22,660] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py for tasks to queue
+[2022-01-28 22:22:22,661] {logging_mixin.py:109} INFO - [2022-01-28 22:22:22,661] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:22:23,114] {processor.py:654} INFO - DAG(s) dict_keys(['extract_stat_players']) retrieved from /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py
+[2022-01-28 22:22:23,363] {logging_mixin.py:109} INFO - [2022-01-28 22:22:23,363] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 22:22:23,377] {logging_mixin.py:109} INFO - [2022-01-28 22:22:23,377] {dag.py:2935} INFO - Setting next_dagrun for extract_stat_players to 2022-01-28T22:22:23.104933+00:00
+[2022-01-28 22:22:23,533] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/airflow/dags/teste.py took 0.879 seconds

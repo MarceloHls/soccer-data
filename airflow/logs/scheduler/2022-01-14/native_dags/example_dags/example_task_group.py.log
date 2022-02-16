@@ -1,0 +1,63 @@
+[2022-01-13 23:04:29,800] {processor.py:163} INFO - Started process (PID=24040) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:04:29,801] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:04:29,802] {logging_mixin.py:109} INFO - [2022-01-13 23:04:29,802] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:04:29,857] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:04:29,918] {logging_mixin.py:109} INFO - [2022-01-13 23:04:29,918] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:04:29,960] {logging_mixin.py:109} INFO - [2022-01-13 23:04:29,960] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:04:29.960304+00:00
+[2022-01-13 23:04:29,985] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.188 seconds
+[2022-01-13 23:05:07,317] {processor.py:163} INFO - Started process (PID=24216) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:05:07,321] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:05:07,322] {logging_mixin.py:109} INFO - [2022-01-13 23:05:07,322] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:05:07,364] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:05:07,378] {logging_mixin.py:109} INFO - [2022-01-13 23:05:07,378] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:05:07,391] {logging_mixin.py:109} INFO - [2022-01-13 23:05:07,391] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:05:07.390802+00:00
+[2022-01-13 23:05:07,411] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.097 seconds
+[2022-01-13 23:05:49,874] {processor.py:163} INFO - Started process (PID=24615) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:05:49,876] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:05:49,877] {logging_mixin.py:109} INFO - [2022-01-13 23:05:49,877] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:05:49,901] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:05:49,914] {logging_mixin.py:109} INFO - [2022-01-13 23:05:49,913] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:05:49,924] {logging_mixin.py:109} INFO - [2022-01-13 23:05:49,924] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:05:49.924389+00:00
+[2022-01-13 23:05:49,946] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.075 seconds
+[2022-01-13 23:06:31,337] {processor.py:163} INFO - Started process (PID=24802) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:06:31,366] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:06:31,367] {logging_mixin.py:109} INFO - [2022-01-13 23:06:31,367] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:06:31,472] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:06:31,501] {logging_mixin.py:109} INFO - [2022-01-13 23:06:31,501] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:06:31,514] {logging_mixin.py:109} INFO - [2022-01-13 23:06:31,514] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:06:31.513829+00:00
+[2022-01-13 23:06:31,530] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.197 seconds
+[2022-01-13 23:07:13,374] {processor.py:163} INFO - Started process (PID=24978) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:07:13,408] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:07:13,408] {logging_mixin.py:109} INFO - [2022-01-13 23:07:13,408] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:07:13,493] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:07:13,556] {logging_mixin.py:109} INFO - [2022-01-13 23:07:13,556] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:07:13,610] {logging_mixin.py:109} INFO - [2022-01-13 23:07:13,610] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:07:13.610242+00:00
+[2022-01-13 23:07:13,781] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.410 seconds
+[2022-01-13 23:10:47,801] {processor.py:163} INFO - Started process (PID=25275) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:10:47,856] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:10:47,857] {logging_mixin.py:109} INFO - [2022-01-13 23:10:47,857] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:10:47,945] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:10:48,023] {logging_mixin.py:109} INFO - [2022-01-13 23:10:48,023] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:10:48,048] {logging_mixin.py:109} INFO - [2022-01-13 23:10:48,048] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:10:48.048359+00:00
+[2022-01-13 23:10:48,109] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.438 seconds
+[2022-01-13 23:14:08,221] {processor.py:163} INFO - Started process (PID=25687) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:14:08,241] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:14:08,241] {logging_mixin.py:109} INFO - [2022-01-13 23:14:08,241] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:14:08,352] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:14:08,500] {logging_mixin.py:109} INFO - [2022-01-13 23:14:08,500] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:14:08,569] {logging_mixin.py:109} INFO - [2022-01-13 23:14:08,569] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:14:08.568827+00:00
+[2022-01-13 23:14:08,609] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.391 seconds
+[2022-01-13 23:15:29,949] {processor.py:163} INFO - Started process (PID=25987) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:15:29,989] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:15:29,990] {logging_mixin.py:109} INFO - [2022-01-13 23:15:29,989] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:15:30,098] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:15:30,117] {logging_mixin.py:109} INFO - [2022-01-13 23:15:30,117] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:15:30,190] {logging_mixin.py:109} INFO - [2022-01-13 23:15:30,190] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:15:30.189626+00:00
+[2022-01-13 23:15:30,226] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.279 seconds
+[2022-01-13 23:16:16,985] {processor.py:163} INFO - Started process (PID=26195) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:16:17,002] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-01-13 23:16:17,002] {logging_mixin.py:109} INFO - [2022-01-13 23:16:17,002] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:16:17,132] {processor.py:654} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2022-01-13 23:16:17,165] {logging_mixin.py:109} INFO - [2022-01-13 23:16:17,165] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:16:17,246] {logging_mixin.py:109} INFO - [2022-01-13 23:16:17,246] {dag.py:2935} INFO - Setting next_dagrun for example_task_group to 2022-01-13T02:16:17.245512+00:00
+[2022-01-13 23:16:17,283] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.300 seconds

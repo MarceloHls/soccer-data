@@ -1,0 +1,49 @@
+[2022-01-13 23:04:39,595] {processor.py:163} INFO - Started process (PID=24092) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:04:39,596] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-01-13 23:04:39,597] {logging_mixin.py:109} INFO - [2022-01-13 23:04:39,597] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:04:39,667] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:04:39,898] {logging_mixin.py:109} INFO - [2022-01-13 23:04:39,898] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:04:39,919] {logging_mixin.py:109} INFO - [2022-01-13 23:04:39,919] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-01-13 23:04:39,951] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.360 seconds
+[2022-01-13 23:05:18,105] {processor.py:163} INFO - Started process (PID=24415) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:05:18,115] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-01-13 23:05:18,116] {logging_mixin.py:109} INFO - [2022-01-13 23:05:18,116] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:05:18,280] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:05:19,240] {logging_mixin.py:109} INFO - [2022-01-13 23:05:19,240] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:05:19,266] {logging_mixin.py:109} INFO - [2022-01-13 23:05:19,266] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-01-13 23:05:19,327] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 1.263 seconds
+[2022-01-13 23:06:03,774] {processor.py:163} INFO - Started process (PID=24686) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:06:03,793] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-01-13 23:06:03,794] {logging_mixin.py:109} INFO - [2022-01-13 23:06:03,794] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:06:03,843] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:06:04,338] {logging_mixin.py:109} INFO - [2022-01-13 23:06:04,338] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:06:04,347] {logging_mixin.py:109} INFO - [2022-01-13 23:06:04,347] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-01-13 23:06:04,410] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.642 seconds
+[2022-01-13 23:06:48,136] {processor.py:163} INFO - Started process (PID=24869) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:06:48,151] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-01-13 23:06:48,152] {logging_mixin.py:109} INFO - [2022-01-13 23:06:48,152] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:06:48,305] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:06:49,175] {logging_mixin.py:109} INFO - [2022-01-13 23:06:49,174] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:06:49,195] {logging_mixin.py:109} INFO - [2022-01-13 23:06:49,195] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-01-13 23:06:49,275] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 1.142 seconds
+[2022-01-13 23:10:56,913] {processor.py:163} INFO - Started process (PID=25321) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:10:56,917] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-01-13 23:10:56,918] {logging_mixin.py:109} INFO - [2022-01-13 23:10:56,918] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:10:56,966] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:10:57,244] {logging_mixin.py:109} INFO - [2022-01-13 23:10:57,244] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:10:57,255] {logging_mixin.py:109} INFO - [2022-01-13 23:10:57,254] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-01-13 23:10:57,270] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.366 seconds
+[2022-01-13 23:14:19,398] {processor.py:163} INFO - Started process (PID=25728) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:14:19,403] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-01-13 23:14:19,404] {logging_mixin.py:109} INFO - [2022-01-13 23:14:19,404] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:14:19,580] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:14:20,572] {logging_mixin.py:109} INFO - [2022-01-13 23:14:20,572] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:14:20,621] {logging_mixin.py:109} INFO - [2022-01-13 23:14:20,620] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-01-13 23:14:20,660] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 1.288 seconds
+[2022-01-13 23:16:10,668] {processor.py:163} INFO - Started process (PID=26170) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:16:10,684] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-01-13 23:16:10,690] {logging_mixin.py:109} INFO - [2022-01-13 23:16:10,690] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:16:10,768] {processor.py:654} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-01-13 23:16:11,488] {logging_mixin.py:109} INFO - [2022-01-13 23:16:11,488] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 23:16:11,497] {logging_mixin.py:109} INFO - [2022-01-13 23:16:11,497] {dag.py:2935} INFO - Setting next_dagrun for example_dag_decorator to None
+[2022-01-13 23:16:11,540] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.875 seconds

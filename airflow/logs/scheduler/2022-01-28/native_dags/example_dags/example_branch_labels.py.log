@@ -1,0 +1,77 @@
+[2022-01-28 20:50:01,351] {processor.py:163} INFO - Started process (PID=16527) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:50:01,368] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:50:01,369] {logging_mixin.py:109} INFO - [2022-01-28 20:50:01,369] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:50:01,413] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:50:01,429] {logging_mixin.py:109} INFO - [2022-01-28 20:50:01,429] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:50:01,441] {logging_mixin.py:109} INFO - [2022-01-28 20:50:01,441] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:50:01,456] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.109 seconds
+[2022-01-28 20:50:40,574] {processor.py:163} INFO - Started process (PID=16710) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:50:40,575] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:50:40,576] {logging_mixin.py:109} INFO - [2022-01-28 20:50:40,576] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:50:40,617] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:50:40,625] {logging_mixin.py:109} INFO - [2022-01-28 20:50:40,625] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:50:40,659] {logging_mixin.py:109} INFO - [2022-01-28 20:50:40,659] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:50:40,683] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.124 seconds
+[2022-01-28 20:51:17,961] {processor.py:163} INFO - Started process (PID=16870) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:51:17,971] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:51:17,973] {logging_mixin.py:109} INFO - [2022-01-28 20:51:17,972] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:51:18,019] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:51:18,027] {logging_mixin.py:109} INFO - [2022-01-28 20:51:18,026] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:51:18,045] {logging_mixin.py:109} INFO - [2022-01-28 20:51:18,045] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:51:18,060] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.110 seconds
+[2022-01-28 20:52:06,255] {processor.py:163} INFO - Started process (PID=17284) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:52:06,267] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:52:06,267] {logging_mixin.py:109} INFO - [2022-01-28 20:52:06,267] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:52:06,314] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:52:06,353] {logging_mixin.py:109} INFO - [2022-01-28 20:52:06,353] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:52:06,397] {logging_mixin.py:109} INFO - [2022-01-28 20:52:06,396] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:52:06,428] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.188 seconds
+[2022-01-28 20:52:59,516] {processor.py:163} INFO - Started process (PID=17523) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:52:59,532] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:52:59,544] {logging_mixin.py:109} INFO - [2022-01-28 20:52:59,544] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:52:59,603] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:52:59,628] {logging_mixin.py:109} INFO - [2022-01-28 20:52:59,628] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:52:59,660] {logging_mixin.py:109} INFO - [2022-01-28 20:52:59,660] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:52:59,701] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.187 seconds
+[2022-01-28 20:53:57,086] {processor.py:163} INFO - Started process (PID=17745) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:53:57,104] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:53:57,104] {logging_mixin.py:109} INFO - [2022-01-28 20:53:57,104] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:53:57,170] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:53:57,213] {logging_mixin.py:109} INFO - [2022-01-28 20:53:57,213] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:53:57,236] {logging_mixin.py:109} INFO - [2022-01-28 20:53:57,236] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:53:57,283] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.199 seconds
+[2022-01-28 20:55:01,961] {processor.py:163} INFO - Started process (PID=17955) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:55:01,966] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:55:01,967] {logging_mixin.py:109} INFO - [2022-01-28 20:55:01,967] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:55:02,031] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:55:02,062] {logging_mixin.py:109} INFO - [2022-01-28 20:55:02,062] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:55:02,090] {logging_mixin.py:109} INFO - [2022-01-28 20:55:02,090] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:55:02,120] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.177 seconds
+[2022-01-28 20:56:15,462] {processor.py:163} INFO - Started process (PID=18206) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:56:15,484] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:56:15,511] {logging_mixin.py:109} INFO - [2022-01-28 20:56:15,485] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:56:15,677] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:56:15,795] {logging_mixin.py:109} INFO - [2022-01-28 20:56:15,795] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:56:16,027] {logging_mixin.py:109} INFO - [2022-01-28 20:56:16,026] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:56:16,168] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.709 seconds
+[2022-01-28 20:57:20,116] {processor.py:163} INFO - Started process (PID=18429) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:57:20,124] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:57:20,125] {logging_mixin.py:109} INFO - [2022-01-28 20:57:20,124] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:57:20,239] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:57:20,268] {logging_mixin.py:109} INFO - [2022-01-28 20:57:20,268] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:57:20,342] {logging_mixin.py:109} INFO - [2022-01-28 20:57:20,342] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:57:20,440] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.328 seconds
+[2022-01-28 20:58:24,737] {processor.py:163} INFO - Started process (PID=18652) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:58:24,778] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:58:24,778] {logging_mixin.py:109} INFO - [2022-01-28 20:58:24,778] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:58:24,944] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:58:25,085] {logging_mixin.py:109} INFO - [2022-01-28 20:58:25,085] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:58:25,333] {logging_mixin.py:109} INFO - [2022-01-28 20:58:25,333] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:58:25,391] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.658 seconds
+[2022-01-28 20:59:27,866] {processor.py:163} INFO - Started process (PID=18828) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:59:27,874] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-01-28 20:59:27,875] {logging_mixin.py:109} INFO - [2022-01-28 20:59:27,875] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:59:28,000] {processor.py:654} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-01-28 20:59:28,049] {logging_mixin.py:109} INFO - [2022-01-28 20:59:28,048] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:59:28,166] {logging_mixin.py:109} INFO - [2022-01-28 20:59:28,166] {dag.py:2935} INFO - Setting next_dagrun for example_branch_labels to 2022-01-27 00:00:00+00:00
+[2022-01-28 20:59:28,285] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.459 seconds

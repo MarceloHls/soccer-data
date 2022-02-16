@@ -1,0 +1,105 @@
+[2022-01-28 20:49:28,690] {processor.py:163} INFO - Started process (PID=16345) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:49:28,690] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:49:28,691] {logging_mixin.py:109} INFO - [2022-01-28 20:49:28,691] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:49:28,819] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:49:28,852] {logging_mixin.py:109} INFO - [2022-01-28 20:49:28,852] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:49:28,884] {logging_mixin.py:109} INFO - [2022-01-28 20:49:28,884] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:49:28.884398+00:00
+[2022-01-28 20:49:28,994] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.307 seconds
+[2022-01-28 20:50:09,818] {processor.py:163} INFO - Started process (PID=16573) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:50:09,820] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:50:09,821] {logging_mixin.py:109} INFO - [2022-01-28 20:50:09,820] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:50:09,920] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:50:09,951] {logging_mixin.py:109} INFO - [2022-01-28 20:50:09,951] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:50:09,984] {logging_mixin.py:109} INFO - [2022-01-28 20:50:09,983] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:50:09.983673+00:00
+[2022-01-28 20:50:10,026] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.238 seconds
+[2022-01-28 20:50:47,172] {processor.py:163} INFO - Started process (PID=16739) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:50:47,179] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:50:47,180] {logging_mixin.py:109} INFO - [2022-01-28 20:50:47,179] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:50:47,217] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:50:47,236] {logging_mixin.py:109} INFO - [2022-01-28 20:50:47,236] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:50:47,257] {logging_mixin.py:109} INFO - [2022-01-28 20:50:47,257] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:50:47.257419+00:00
+[2022-01-28 20:50:47,285] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2022-01-28 20:51:25,323] {processor.py:163} INFO - Started process (PID=16899) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:51:25,327] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:51:25,328] {logging_mixin.py:109} INFO - [2022-01-28 20:51:25,328] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:51:25,350] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:51:25,359] {logging_mixin.py:109} INFO - [2022-01-28 20:51:25,359] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:51:25,369] {logging_mixin.py:109} INFO - [2022-01-28 20:51:25,369] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:51:25.369525+00:00
+[2022-01-28 20:51:25,463] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.154 seconds
+[2022-01-28 20:52:00,858] {processor.py:163} INFO - Started process (PID=17264) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:52:00,875] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:52:00,875] {logging_mixin.py:109} INFO - [2022-01-28 20:52:00,875] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:52:00,938] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:52:00,971] {logging_mixin.py:109} INFO - [2022-01-28 20:52:00,971] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:52:01,005] {logging_mixin.py:109} INFO - [2022-01-28 20:52:01,005] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:52:01.005209+00:00
+[2022-01-28 20:52:01,199] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.360 seconds
+[2022-01-28 20:52:39,505] {processor.py:163} INFO - Started process (PID=17440) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:52:39,513] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:52:39,514] {logging_mixin.py:109} INFO - [2022-01-28 20:52:39,514] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:52:39,569] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:52:39,590] {logging_mixin.py:109} INFO - [2022-01-28 20:52:39,590] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:52:39,612] {logging_mixin.py:109} INFO - [2022-01-28 20:52:39,612] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:52:39.612396+00:00
+[2022-01-28 20:52:39,654] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.151 seconds
+[2022-01-28 20:53:25,173] {processor.py:163} INFO - Started process (PID=17630) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:53:25,188] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:53:25,189] {logging_mixin.py:109} INFO - [2022-01-28 20:53:25,189] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:53:25,323] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:53:25,372] {logging_mixin.py:109} INFO - [2022-01-28 20:53:25,372] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:53:25,419] {logging_mixin.py:109} INFO - [2022-01-28 20:53:25,418] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:53:25.418591+00:00
+[2022-01-28 20:53:25,510] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.357 seconds
+[2022-01-28 20:54:06,437] {processor.py:163} INFO - Started process (PID=17775) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:54:06,449] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:54:06,450] {logging_mixin.py:109} INFO - [2022-01-28 20:54:06,449] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:54:06,522] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:54:06,555] {logging_mixin.py:109} INFO - [2022-01-28 20:54:06,555] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:54:06,587] {logging_mixin.py:109} INFO - [2022-01-28 20:54:06,587] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:54:06.587091+00:00
+[2022-01-28 20:54:06,684] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.251 seconds
+[2022-01-28 20:54:49,863] {processor.py:163} INFO - Started process (PID=17914) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:54:49,869] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:54:49,870] {logging_mixin.py:109} INFO - [2022-01-28 20:54:49,869] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:54:50,032] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:54:50,068] {logging_mixin.py:109} INFO - [2022-01-28 20:54:50,068] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:54:50,160] {logging_mixin.py:109} INFO - [2022-01-28 20:54:50,160] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:54:50.159796+00:00
+[2022-01-28 20:54:50,287] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.466 seconds
+[2022-01-28 20:55:32,516] {processor.py:163} INFO - Started process (PID=18069) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:55:32,559] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:55:32,575] {logging_mixin.py:109} INFO - [2022-01-28 20:55:32,560] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:55:32,665] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:55:32,695] {logging_mixin.py:109} INFO - [2022-01-28 20:55:32,695] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:55:32,730] {logging_mixin.py:109} INFO - [2022-01-28 20:55:32,730] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:55:32.729777+00:00
+[2022-01-28 20:55:32,880] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.460 seconds
+[2022-01-28 20:56:25,636] {processor.py:163} INFO - Started process (PID=18233) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:56:25,641] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:56:25,641] {logging_mixin.py:109} INFO - [2022-01-28 20:56:25,641] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:56:25,695] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:56:25,727] {logging_mixin.py:109} INFO - [2022-01-28 20:56:25,727] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:56:25,753] {logging_mixin.py:109} INFO - [2022-01-28 20:56:25,753] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:56:25.752920+00:00
+[2022-01-28 20:56:25,813] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.180 seconds
+[2022-01-28 20:57:09,218] {processor.py:163} INFO - Started process (PID=18386) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:57:09,220] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:57:09,222] {logging_mixin.py:109} INFO - [2022-01-28 20:57:09,222] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:57:09,268] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:57:09,298] {logging_mixin.py:109} INFO - [2022-01-28 20:57:09,298] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:57:09,321] {logging_mixin.py:109} INFO - [2022-01-28 20:57:09,321] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:57:09.321057+00:00
+[2022-01-28 20:57:09,362] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.168 seconds
+[2022-01-28 20:57:47,405] {processor.py:163} INFO - Started process (PID=18523) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:57:47,407] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:57:47,408] {logging_mixin.py:109} INFO - [2022-01-28 20:57:47,408] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:57:47,509] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:57:47,539] {logging_mixin.py:109} INFO - [2022-01-28 20:57:47,539] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:57:47,573] {logging_mixin.py:109} INFO - [2022-01-28 20:57:47,573] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:57:47.572799+00:00
+[2022-01-28 20:57:47,636] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.259 seconds
+[2022-01-28 20:58:36,574] {processor.py:163} INFO - Started process (PID=18689) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:58:36,585] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:58:36,585] {logging_mixin.py:109} INFO - [2022-01-28 20:58:36,585] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:58:36,725] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:58:36,937] {logging_mixin.py:109} INFO - [2022-01-28 20:58:36,937] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:58:36,993] {logging_mixin.py:109} INFO - [2022-01-28 20:58:36,992] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:58:36.992583+00:00
+[2022-01-28 20:58:37,071] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.529 seconds
+[2022-01-28 20:59:41,328] {processor.py:163} INFO - Started process (PID=18860) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:59:41,355] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-01-28 20:59:41,357] {logging_mixin.py:109} INFO - [2022-01-28 20:59:41,357] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:59:41,531] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2022-01-28 20:59:41,636] {logging_mixin.py:109} INFO - [2022-01-28 20:59:41,636] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:59:41,878] {logging_mixin.py:109} INFO - [2022-01-28 20:59:41,878] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2022-01-27T23:59:41.878281+00:00
+[2022-01-28 20:59:41,960] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.636 seconds

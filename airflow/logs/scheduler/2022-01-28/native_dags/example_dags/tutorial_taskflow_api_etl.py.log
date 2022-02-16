@@ -1,0 +1,105 @@
+[2022-01-28 20:49:33,673] {processor.py:163} INFO - Started process (PID=16377) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:49:33,674] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:49:33,675] {logging_mixin.py:109} INFO - [2022-01-28 20:49:33,675] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:49:33,804] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:49:34,561] {logging_mixin.py:109} INFO - [2022-01-28 20:49:34,561] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:49:34,603] {logging_mixin.py:109} INFO - [2022-01-28 20:49:34,603] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:49:34,639] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.968 seconds
+[2022-01-28 20:50:13,035] {processor.py:163} INFO - Started process (PID=16586) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:50:13,039] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:50:13,040] {logging_mixin.py:109} INFO - [2022-01-28 20:50:13,040] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:50:13,071] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:50:13,241] {logging_mixin.py:109} INFO - [2022-01-28 20:50:13,241] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:50:13,250] {logging_mixin.py:109} INFO - [2022-01-28 20:50:13,250] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:50:13,270] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.241 seconds
+[2022-01-28 20:50:51,248] {processor.py:163} INFO - Started process (PID=16753) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:50:51,270] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:50:51,270] {logging_mixin.py:109} INFO - [2022-01-28 20:50:51,270] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:50:51,302] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:50:51,696] {logging_mixin.py:109} INFO - [2022-01-28 20:50:51,696] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:50:51,720] {logging_mixin.py:109} INFO - [2022-01-28 20:50:51,720] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:50:51,752] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.506 seconds
+[2022-01-28 20:51:28,193] {processor.py:163} INFO - Started process (PID=16912) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:51:28,196] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:51:28,198] {logging_mixin.py:109} INFO - [2022-01-28 20:51:28,197] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:51:28,234] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:51:28,440] {logging_mixin.py:109} INFO - [2022-01-28 20:51:28,440] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:51:28,452] {logging_mixin.py:109} INFO - [2022-01-28 20:51:28,452] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:51:28,467] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.282 seconds
+[2022-01-28 20:52:10,242] {processor.py:163} INFO - Started process (PID=17303) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:52:10,262] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:52:10,263] {logging_mixin.py:109} INFO - [2022-01-28 20:52:10,262] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:52:10,291] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:52:10,533] {logging_mixin.py:109} INFO - [2022-01-28 20:52:10,533] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:52:10,546] {logging_mixin.py:109} INFO - [2022-01-28 20:52:10,546] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:52:10,567] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.328 seconds
+[2022-01-28 20:52:48,900] {processor.py:163} INFO - Started process (PID=17478) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:52:48,952] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:52:48,952] {logging_mixin.py:109} INFO - [2022-01-28 20:52:48,952] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:52:49,033] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:52:49,601] {logging_mixin.py:109} INFO - [2022-01-28 20:52:49,601] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:52:49,647] {logging_mixin.py:109} INFO - [2022-01-28 20:52:49,647] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:52:49,692] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.794 seconds
+[2022-01-28 20:53:39,403] {processor.py:163} INFO - Started process (PID=17680) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:53:39,420] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:53:39,420] {logging_mixin.py:109} INFO - [2022-01-28 20:53:39,420] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:53:39,532] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:53:40,419] {logging_mixin.py:109} INFO - [2022-01-28 20:53:40,419] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:53:40,470] {logging_mixin.py:109} INFO - [2022-01-28 20:53:40,470] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:53:40,523] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.147 seconds
+[2022-01-28 20:54:22,405] {processor.py:163} INFO - Started process (PID=17832) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:54:22,434] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:54:22,435] {logging_mixin.py:109} INFO - [2022-01-28 20:54:22,434] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:54:22,529] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:54:23,445] {logging_mixin.py:109} INFO - [2022-01-28 20:54:23,445] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:54:23,494] {logging_mixin.py:109} INFO - [2022-01-28 20:54:23,493] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:54:23,537] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.159 seconds
+[2022-01-28 20:55:06,074] {processor.py:163} INFO - Started process (PID=17971) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:55:06,092] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:55:06,093] {logging_mixin.py:109} INFO - [2022-01-28 20:55:06,093] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:55:06,161] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:55:07,077] {logging_mixin.py:109} INFO - [2022-01-28 20:55:07,076] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:55:07,155] {logging_mixin.py:109} INFO - [2022-01-28 20:55:07,155] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:55:07,234] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.185 seconds
+[2022-01-28 20:55:51,412] {processor.py:163} INFO - Started process (PID=18122) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:55:51,437] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:55:51,437] {logging_mixin.py:109} INFO - [2022-01-28 20:55:51,437] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:55:51,552] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:55:52,675] {logging_mixin.py:109} INFO - [2022-01-28 20:55:52,675] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:55:52,720] {logging_mixin.py:109} INFO - [2022-01-28 20:55:52,720] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:55:52,754] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.375 seconds
+[2022-01-28 20:56:44,290] {processor.py:163} INFO - Started process (PID=18298) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:56:44,304] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:56:44,305] {logging_mixin.py:109} INFO - [2022-01-28 20:56:44,305] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:56:44,410] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:56:45,303] {logging_mixin.py:109} INFO - [2022-01-28 20:56:45,303] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:56:45,353] {logging_mixin.py:109} INFO - [2022-01-28 20:56:45,353] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:56:45,381] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.106 seconds
+[2022-01-28 20:57:24,337] {processor.py:163} INFO - Started process (PID=18444) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:57:24,364] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:57:24,365] {logging_mixin.py:109} INFO - [2022-01-28 20:57:24,365] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:57:24,450] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:57:25,064] {logging_mixin.py:109} INFO - [2022-01-28 20:57:25,064] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:57:25,124] {logging_mixin.py:109} INFO - [2022-01-28 20:57:25,124] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:57:25,151] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.819 seconds
+[2022-01-28 20:58:04,380] {processor.py:163} INFO - Started process (PID=18583) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:58:04,404] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:58:04,405] {logging_mixin.py:109} INFO - [2022-01-28 20:58:04,405] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:58:04,577] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:58:06,211] {logging_mixin.py:109} INFO - [2022-01-28 20:58:06,211] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:58:06,273] {logging_mixin.py:109} INFO - [2022-01-28 20:58:06,273] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:58:06,350] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 2.025 seconds
+[2022-01-28 20:58:59,600] {processor.py:163} INFO - Started process (PID=18753) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:58:59,626] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:58:59,626] {logging_mixin.py:109} INFO - [2022-01-28 20:58:59,626] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:58:59,761] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:59:01,132] {logging_mixin.py:109} INFO - [2022-01-28 20:59:01,132] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:59:01,184] {logging_mixin.py:109} INFO - [2022-01-28 20:59:01,184] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:59:01,311] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 1.714 seconds
+[2022-01-28 20:59:49,638] {processor.py:163} INFO - Started process (PID=18878) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:59:49,655] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py for tasks to queue
+[2022-01-28 20:59:49,656] {logging_mixin.py:109} INFO - [2022-01-28 20:59:49,656] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:59:49,711] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2022-01-28 20:59:50,446] {logging_mixin.py:109} INFO - [2022-01-28 20:59:50,445] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-28 20:59:50,513] {logging_mixin.py:109} INFO - [2022-01-28 20:59:50,513] {dag.py:2935} INFO - Setting next_dagrun for tutorial_taskflow_api_etl to None
+[2022-01-28 20:59:50,596] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py took 0.962 seconds

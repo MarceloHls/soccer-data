@@ -1,0 +1,77 @@
+[2022-01-21 21:00:27,414] {processor.py:163} INFO - Started process (PID=110593) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:00:27,415] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:00:27,416] {logging_mixin.py:109} INFO - [2022-01-21 21:00:27,415] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:00:27,497] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:00:27,505] {logging_mixin.py:109} INFO - [2022-01-21 21:00:27,505] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:00:27,537] {logging_mixin.py:109} INFO - [2022-01-21 21:00:27,537] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:00:27,583] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.197 seconds
+[2022-01-21 21:01:10,486] {processor.py:163} INFO - Started process (PID=110793) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:01:10,505] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:01:10,505] {logging_mixin.py:109} INFO - [2022-01-21 21:01:10,505] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:01:10,539] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:01:10,546] {logging_mixin.py:109} INFO - [2022-01-21 21:01:10,546] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:01:10,558] {logging_mixin.py:109} INFO - [2022-01-21 21:01:10,558] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:01:10,587] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.103 seconds
+[2022-01-21 21:02:08,659] {processor.py:163} INFO - Started process (PID=111068) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:02:08,662] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:02:08,663] {logging_mixin.py:109} INFO - [2022-01-21 21:02:08,663] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:02:08,720] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:02:08,735] {logging_mixin.py:109} INFO - [2022-01-21 21:02:08,734] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:02:08,783] {logging_mixin.py:109} INFO - [2022-01-21 21:02:08,783] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:02:08,809] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.164 seconds
+[2022-01-21 21:03:11,611] {processor.py:163} INFO - Started process (PID=111350) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:03:11,631] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:03:11,631] {logging_mixin.py:109} INFO - [2022-01-21 21:03:11,631] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:03:11,732] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:03:11,786] {logging_mixin.py:109} INFO - [2022-01-21 21:03:11,786] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:03:11,857] {logging_mixin.py:109} INFO - [2022-01-21 21:03:11,857] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:03:11,884] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.293 seconds
+[2022-01-21 21:03:53,418] {processor.py:163} INFO - Started process (PID=111564) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:03:53,428] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:03:53,430] {logging_mixin.py:109} INFO - [2022-01-21 21:03:53,430] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:03:53,471] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:03:53,480] {logging_mixin.py:109} INFO - [2022-01-21 21:03:53,480] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:03:53,502] {logging_mixin.py:109} INFO - [2022-01-21 21:03:53,502] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:03:53,522] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.117 seconds
+[2022-01-21 21:04:33,940] {processor.py:163} INFO - Started process (PID=111783) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:04:33,949] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:04:33,950] {logging_mixin.py:109} INFO - [2022-01-21 21:04:33,949] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:04:34,009] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:04:34,040] {logging_mixin.py:109} INFO - [2022-01-21 21:04:34,040] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:04:34,061] {logging_mixin.py:109} INFO - [2022-01-21 21:04:34,061] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:04:34,079] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.143 seconds
+[2022-01-21 21:05:11,692] {processor.py:163} INFO - Started process (PID=111977) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:05:11,698] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:05:11,700] {logging_mixin.py:109} INFO - [2022-01-21 21:05:11,700] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:05:11,730] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:05:11,738] {logging_mixin.py:109} INFO - [2022-01-21 21:05:11,738] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:05:11,751] {logging_mixin.py:109} INFO - [2022-01-21 21:05:11,751] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:05:11,767] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.077 seconds
+[2022-01-21 21:05:49,659] {processor.py:163} INFO - Started process (PID=112169) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:05:49,662] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:05:49,663] {logging_mixin.py:109} INFO - [2022-01-21 21:05:49,663] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:05:49,712] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:05:49,719] {logging_mixin.py:109} INFO - [2022-01-21 21:05:49,719] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:05:49,730] {logging_mixin.py:109} INFO - [2022-01-21 21:05:49,730] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:05:49,748] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.094 seconds
+[2022-01-21 21:06:26,341] {processor.py:163} INFO - Started process (PID=112366) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:06:26,344] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:06:26,345] {logging_mixin.py:109} INFO - [2022-01-21 21:06:26,345] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:06:26,382] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:06:26,389] {logging_mixin.py:109} INFO - [2022-01-21 21:06:26,389] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:06:26,404] {logging_mixin.py:109} INFO - [2022-01-21 21:06:26,404] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:06:26,441] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.120 seconds
+[2022-01-21 21:07:03,938] {processor.py:163} INFO - Started process (PID=112560) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:07:03,941] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:07:03,942] {logging_mixin.py:109} INFO - [2022-01-21 21:07:03,942] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:07:03,973] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:07:03,982] {logging_mixin.py:109} INFO - [2022-01-21 21:07:03,982] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:07:03,994] {logging_mixin.py:109} INFO - [2022-01-21 21:07:03,994] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:07:04,010] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.076 seconds
+[2022-01-21 21:07:39,130] {processor.py:163} INFO - Started process (PID=112735) to work on /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:07:39,143] {processor.py:642} INFO - Processing file /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-01-21 21:07:39,144] {logging_mixin.py:109} INFO - [2022-01-21 21:07:39,144] {dagbag.py:500} INFO - Filling up the DagBag from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:07:39,167] {processor.py:654} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-01-21 21:07:39,174] {logging_mixin.py:109} INFO - [2022-01-21 21:07:39,174] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-21 21:07:39,188] {logging_mixin.py:109} INFO - [2022-01-21 21:07:39,188] {dag.py:2935} INFO - Setting next_dagrun for example_trigger_target_dag to None
+[2022-01-21 21:07:39,256] {processor.py:171} INFO - Processing /home/data-eginner/Documents/Soccer_Data/env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.129 seconds
