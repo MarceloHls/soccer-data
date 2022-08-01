@@ -1,6 +1,6 @@
-#!/home/data-eginner/Documents/Soccer_Data/env/bin/python3
+#!/home/data-enginner/soccer-data/env/bin/python3
 
-# $Id: rst2xml.py 4564 2006-05-21 20:44:42Z wiemann $
+# $Id: rst2xml.py 8927 2022-01-03 23:50:05Z milde $
 # Author: David Goodger <goodger@python.org>
 # Copyright: This module has been placed in the public domain.
 

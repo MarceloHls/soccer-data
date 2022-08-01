@@ -40,6 +40,10 @@ class ReadyToRescheduleDep(BaseTIDep):
         considered as passed. This dependency fails if the latest reschedule
         request's reschedule date is still in future.
         """
+        if not getattr(ti.task, "reschedule", False):
+            yield self._passing_status(reason="Task is not in reschedule mode.")
+            return
+
         if dep_context.ignore_in_reschedule_period:
             yield self._passing_status(
                 reason="The context specified that being in a reschedule period was permitted."
@@ -68,7 +72,9 @@ class ReadyToRescheduleDep(BaseTIDep):
             return
 
         yield self._failing_status(
-            reason="Task is not ready for reschedule yet but will be rescheduled "
-            "automatically. Current date is {} and task will be rescheduled "
-            "at {}.".format(now.isoformat(), next_reschedule_date.isoformat())
+            reason=(
+                "Task is not ready for reschedule yet but will be rescheduled automatically. "
+                f"Current date is {now.isoformat()} and task will be "
+                f"rescheduled at {next_reschedule_date.isoformat()}."
+            )
         )

@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/data-eginner/Documents/Soccer_Data/env"
+VIRTUAL_ENV="/home/data-enginner/soccer-data/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

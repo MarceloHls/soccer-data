@@ -28,6 +28,13 @@
   {% endif%}
 {% endblock %}
 
+{% block head_meta %}
+  {{ super() }}
+  {% if scheduler_job is defined and (scheduler_job and scheduler_job.is_alive()) %}
+    <meta name="is_scheduler_running" content="True">
+  {% endif %}
+{% endblock %}
+
 {% block head_css %}
   {{ super() }}
 
@@ -112,9 +119,6 @@
     var csrfToken = '{{ csrf_token() }}';
     $('time[title]').tooltip();
   </script>
-  <!--[if IE ]>
-  <script src="{{ url_for_asset('ie.js') }}"></script>
-  <![endif]-->
   <script src="{{ url_for_asset('moment.js') }}"></script>
   <script src="{{ url_for_asset('main.js') }}"></script>
   <script src="{{ url_for_asset('bootstrap-datetimepicker.min.js') }}"></script>
